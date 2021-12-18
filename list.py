@@ -1,6 +1,3 @@
-
-
-
 def writeToList(a, path):
     try:
         f = open(path, 'r')
@@ -43,7 +40,10 @@ def sumE(a):
     return summ
 
 def prE(a):
-    pr = 1
-    for i in a:
-        pr *= i
-    return pr
+    if len(a) == 0:
+        return None
+    else:
+        pr = 1
+        for i in a:
+            pr *= i
+        return pr
