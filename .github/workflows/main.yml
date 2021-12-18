@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v2
 
     
-      - name: Run a one-line script
+      - name: UnitTest
         run: python3 -m unittest
 
 
