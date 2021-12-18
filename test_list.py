@@ -37,5 +37,5 @@ class MathOperationsTest(unittest.TestCase):
     def test_pr(self):
         self.assertEqual(list.prE(a), 3936)
         self.assertEqual(list.prE(b), 4)
-        self.assertEqual(list.prE(c), 245280)
+        self.assertEqual(list.prE(c), 245281)
 
